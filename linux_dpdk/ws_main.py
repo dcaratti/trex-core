@@ -654,6 +654,21 @@ dpdk_src = SrcGroup(dir='src/dpdk/',
                  'drivers/net/virtio/virtio_user/vhost_user.c',
                  'drivers/net/virtio/virtio_user/virtio_user_dev.c',
 
+                  #bnxt
+                 'drivers/net/bnxt/bnxt_cpr.c',
+                 'drivers/net/bnxt/bnxt_rxr.c',
+                 'drivers/net/bnxt/bnxt_ethdev.c',
+                 'drivers/net/bnxt/bnxt_stats.c',
+                 'drivers/net/bnxt/bnxt_filter.c',
+                 'drivers/net/bnxt/bnxt_txq.c',
+                 'drivers/net/bnxt/bnxt_hwrm.c',
+                 'drivers/net/bnxt/bnxt_txr.c',
+                 'drivers/net/bnxt/bnxt_irq.c',
+                 'drivers/net/bnxt/bnxt_vnic.c',
+                 'drivers/net/bnxt/bnxt_ring.c',
+                 'drivers/net/bnxt/rte_pmd_bnxt.c',
+                 'drivers/net/bnxt/bnxt_rxq.c',
+
                  #vmxnet3
                  'drivers/net/vmxnet3/vmxnet3_ethdev.c',
                  'drivers/net/vmxnet3/vmxnet3_rxtx.c',
